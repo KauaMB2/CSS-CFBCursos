@@ -19,6 +19,4 @@
 
 <hr>
 
-## Click on the image below to access the course:
-<a href="https://www.youtube.com/watch?v=lcKo-ycLDNw&list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC"><img src="img\logo.png" class="img"></a>
-
+## Click <a href="https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV">here</a> to access the course:
