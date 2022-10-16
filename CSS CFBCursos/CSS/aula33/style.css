@@ -1,0 +1,83 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	border: 1px solid #000;
+}
+#d0{
+	background-color: #eef;
+	width: 500px;
+	height: 400px;
+	position: fixed;/*Segue como orientação a janela(página)*/
+}
+#d1,#d2{
+	width: 300px;
+	height: 150px;
+}
+#d1{
+	position: static;/*O objeto fica em sua configuração padrão*/
+}
+#d2{
+	position: relative;/*O objeto fica relativo ao objeto anterior a ele no HTML*/
+	top: 50px;
+	left: 50px;	
+}
+
+#d3{
+	background-color: #eef;
+	width: 500px;
+	height: 400px;
+	position: absolute;/*Permite que sua posição seja modificada*/
+	top: 0%;
+	left: 50%;
+}
+#d4,#d5{
+	width: 300px;
+	height: 150px;
+}
+#d4{
+	position: absolute;/*Permite que sua posição seja modificada*/
+}
+#d5{
+	position: relative;/*Permite que sua posição seja modificada*/
+	top: 50px;
+	left: 50px;
+}
+#d6{
+	position: absolute;
+	background-color: #eef;
+	width: 500px;
+	height: 700px;
+	top: 80%;
+	left: 0px;
+}
+#d7,#d8,#d9,#d10{
+	background-color: #aaf;
+	width: 300px;
+	height: 150px;
+}
+#d7{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;/*Define qual elemento deve ser priorisado na exibição do site, sobrepodo os demais*/
+}
+#d8{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;/*Define qual elemento deve ser priorisado na exibição do site, sobrepodo os demais*/
+}
+#d9{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	z-index: 3;/*Define qual elemento deve ser priorisado na exibição do site, sobrepodo os demais*/
+}
+#d10{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 4;/*Define qual elemento deve ser priorisado na exibição do site, sobrepodo os demais*/
+}

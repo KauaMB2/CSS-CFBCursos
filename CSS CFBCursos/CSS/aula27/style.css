@@ -1,0 +1,27 @@
+div{
+	border: 1px solid #000;
+	background-color: tomato;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+}
+ol,ul,li{
+	border: 1px solid #000;
+	margin: 0px;
+	padding: 0px;
+}
+ol{
+	display: table;
+	width: 400px;
+}
+ul{
+	text-align: center;
+	display: table-row;
+}
+li{
+	display: table-cell;
+}
+.titulo{
+	background-color: #0da;
+}

@@ -1,0 +1,28 @@
+table,td, th{
+	border: 1px solid #000;
+}
+table{
+	width: 500px;
+	table-layout: fixed;
+	border-collapse: collapse;/*separete | collapse*/
+	/*empty-cells: hide*//*Configura o que fazer com células vazias*/
+}
+td, th{
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+th{
+	background-color: #8a8;
+	color: #fff;
+	font-size: 20px;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+tr:hover{
+	background-color: #dd0;
+}
+td:hover{
+	background-color: #0d0;
+}

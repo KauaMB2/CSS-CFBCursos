@@ -1,0 +1,38 @@
+html{
+	font-size: 25px;/*font-size de todo o HTML*/
+}
+div{
+	margin-bottom: 30px;
+}
+#d1{
+	border: 1px solid #f00;
+	width: 500px;
+	width: 500px;
+	resize: both;/*Define a possibilidade de redimencionar a div*/
+	overflow: auto;/*É necessário utilizar a propriedade Overflow junto com o resize para que o redimencionamento funcione*/
+}
+#d2{
+	border: 1px solid #00f;
+	width: 50%;/*Sempre ocupa 50% de largura da div #d1*/
+	height: 50%;/*Sempre ocupa 50% de altura da div #d1*/
+}
+
+
+#d3,#d4{
+	resize: both;/*Define a possibilidade de redimencionar a div*/
+	overflow: auto;/*É necessário utilizar a propriedade Overflow junto com o resize para que o redimencionamento funcione*/
+}
+#d3{
+	border: 1px solid #f00;
+	width: 500px;
+	width: 500px;
+}
+#d4{
+	border: 1px solid #00f;
+	width: 10rem;/*10x o font-size do HTML => 10x25=250*/
+	height: 10rem;/*10x o font-size do HTML => 10x25=250*/
+}
+#foto{
+	width: 100%;
+	height: 100%;
+}

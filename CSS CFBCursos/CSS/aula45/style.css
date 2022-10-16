@@ -1,0 +1,16 @@
+#d1{
+	filter: contrast(50%);
+}
+#d2{
+	filter: grayscale(75%);
+}
+#d3{
+	filter: blur(10px);
+}
+#d4{
+	filter: brightness(1.8);
+}
+#d5{
+	filter: none;
+}
+/*ASSISTIR AULA PARA ENTENDER CADA FILTRO*/

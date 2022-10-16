@@ -1,0 +1,5 @@
+img{
+	width: 500px;
+	height: auto;
+	filter: blur(1px) brightness(1.2) saturate(50%);
+}

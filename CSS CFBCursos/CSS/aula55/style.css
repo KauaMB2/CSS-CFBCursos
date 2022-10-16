@@ -1,0 +1,15 @@
+*{
+	color: #000;
+}
+#d1{
+	color: #f00;
+}
+#d2{
+	color: #f0f;
+}
+#d3{
+	color: #ff0;
+}
+h1,p{
+	color: inherit;/*Pega a cor do elemento pai para si*/
+}

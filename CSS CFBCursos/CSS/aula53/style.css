@@ -1,0 +1,34 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-size: 20px;
+	font-family: Arial;
+	overflow: scroll;/*Adiciona barra de rolagem no body*/
+}
+div,p{
+	display: inline-block;
+}
+p{
+	font-size: 10em;/*10x o font-size da tag pai()body*/
+}
+#d1{
+	border: 1px solid #f00;
+	width: 10ex;/*Em relação a letra x minúscula do elemento pai*/
+	height: 10ex;/*Em relação a letra x minúscula do elemento pai*/
+}
+#d2{
+	border: 1px solid #00f;
+	width: 10em;
+	height: 10em;
+}
+#d3{
+	border: 1px solid #0ff;
+	width: 10vw;/*10% da largura da janela*/
+	height: 10vh;/*10% da altura da janela*/
+}
+#d4{
+	border: 1px solid #0f0;
+	width: 10%;
+	height: 66px;
+}

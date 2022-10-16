@@ -1,0 +1,51 @@
+@keyframes anima1{
+	from{
+		top: 0px;left:  0px;background-color: #fff;color: #000;
+	}
+	to{
+		top: 0px;left: 700px;background-color: #f00;color: #ff0;
+	}
+}
+@keyframes anima2{
+	from{
+		top: 0px;left:  700px;background-color: #f00;color: #ff0;
+	}
+	to{
+		top: 900px;left: 700px;background-color: #ff0;color: #f00;
+	}
+}
+@keyframes anima3{
+	from{
+		top: 900px;left: 700px;background-color: #ff0;color: #f00;
+	}
+	to{
+		top: 900px;left: 400px;background-color: #ff0;color: #f00;
+	}
+}
+@keyframes anima4{
+	from{
+		top: 900px;left: 400px;background-color: #ff0;color: #f00;
+	}
+	to{
+		top: 0px;left:  400px;background-color: #00f;color: #ff0;
+	}
+}
+
+p{
+	width: 300px;
+	height: auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.c1{
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	animation-name: anima1,anima2,anima3,anima4;/*Ordem das animações*/
+	animation-duration: 3s;/*Duração de cada animação*/
+	animation-timing-function: linear;/*O tipo de celeração*/
+	animation-delay: 0s,3s,6s,9s;/*Tempo que cada animação terá que esperar para acontecer*/
+	background-color: #00f;
+	color: #ff0;
+}

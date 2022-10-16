@@ -1,0 +1,13 @@
+img{
+	border: 1px solid #000;
+}
+#img1{
+	float: left;/*Não permite com que o texto seja escrito por baixo da imagem*/
+}
+#img2{
+	float: right;/*Não permite com que o texto seja escrito por baixo da imagem*/
+	height: 500px;
+}
+.fix{
+	clear: both;/*Anula efeito do float*/
+}

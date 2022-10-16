@@ -1,0 +1,54 @@
+section{
+	border: 3px solid #f00;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;/*flex-start | flex-end | center | (Alinhamento horizontal)*/
+	align-items: flex-start;/*flex-start | flex-end | center | (Alinhamento horizontal)*/
+	flex-direction: row;/*row | column | row-reverse*/
+	margin-bottom: 20px;
+}
+div{
+	border: 1px solid #000;
+	height: 50px;
+	/*flex: (flex-grow);*/
+	flex-grow: 1;
+	flex-basis: 1;
+}
+#d1{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 6;
+}
+#d2{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 2;
+}
+#d3{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 3;
+}
+#d4{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 4;
+}
+#d5{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 5;
+}
+#d6{
+	flex-grow: 1;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	order: 1;
+}
+#d7,#d8,#d9{
+	flex-shrink: 1;/*Capacidade da div de se retrair quando a tela é diminuída ou nn(0=Não | 1=Sim)*/
+	width: 700px;
+}
+#d10,#d11,#d12{
+	flex-shrink: 0;/*Capacidade da div de se retrair quando a tela é diminuída ou nn(0=Não | 1=Sim)*/
+	width: 700px;
+}
+#d13,#d14,#d15,#d16,#d17,#d18{
+	display: inline-block;
+	flex-grow: 0;/*Define se as divs irão ou nn se distribuir igualmente sobre a section*/
+	flex-shrink: 0;/*Capacidade da div de se retrair quando a tela é diminuída ou nn(0=Não | 1=Sim)*/
+	flex-basis: 49.79%;/*Tamanho da div dentro do sections*/
+}

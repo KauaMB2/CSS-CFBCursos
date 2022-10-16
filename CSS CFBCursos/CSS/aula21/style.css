@@ -1,0 +1,17 @@
+#dv1{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	/*transform: translate(100px,200px);*//* Translada a imagem em 100px no eixo X e 200px no eixo Y*/
+	/*transform: rotate(45deg);*//*Gira a imagem em 45 graus*/
+	/*transform: scale(2.0);*//*Aumenta o tamanho da div em 2x(duplica)*/
+	/*transform: scale(2.0) translate(100px,200px);*//*Aumenta o tamanho e translada*/
+	/*transform: skewX(-20deg);*//*Inclina a figura em -20graus no eixo X(horizontal)*/
+	/*transform: skewY(-20deg);*//*Inclina a figura em -20graus no eixo Y(vertical)*/
+	/*transform: skew(-45deg,10deg);*//*(skewX,skewY)*/
+	/*transform: matrix(0.5, 0.5, 0, 0.5, 0, 0);*//*transform: matrix(scaleX, skewY, skewX, scaleY, translateX, translateY);*/
+	/*transform-origin: 100% 100%;*//*Reposiciona o ponto de origem da transformação*/
+}
+p{
+	font-size: 25px;
+}

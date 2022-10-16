@@ -1,0 +1,26 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #bbb;
+	margin-bottom: 40px;
+}
+#d1,#d2,#d3,#d4{
+	border: #000 solid 10px;
+}
+#d5,#d6,#d7,#d8{
+	outline: #f00 solid 10px;
+}
+#d9{
+	margin-top: 80px;
+	border: #000 solid 40px;
+	outline: #f00 solid 80px;
+}
+#d10{
+	width: 400px;
+	height: 400px;
+}

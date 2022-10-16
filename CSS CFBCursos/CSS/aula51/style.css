@@ -1,0 +1,30 @@
+html{
+	font-size: 20px;
+}
+body{
+	font-size: 1em;
+}
+div{
+	display: inline-block;
+	width: 300px;
+}
+#d1{
+	border: 1px solid #f00;
+	height: 2em;/*2x de 20px -> 40px*/
+}
+#d2{
+	border: 1px solid #00f;
+	height: 20px;
+}
+#p1{
+	font-size: 3em;
+	color: #f00;
+}
+#p2{
+	font-size: 2em;
+	color: #0f0;
+}
+#p3{
+	font-size: 20px;
+	color: #00f;
+}

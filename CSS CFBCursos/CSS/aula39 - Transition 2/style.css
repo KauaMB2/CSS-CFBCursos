@@ -1,0 +1,17 @@
+p{
+	width: 300px;
+	height: auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	transition-property: width, height, background-color, color, transform;/*Propriedades que serão transformadas*/
+	transition-timing-function: linear;/*Define a velocidade com que a animação acelera(e a forma como acelera) ou não*/
+	transition-delay: 2s;/*Tempo de espera para começar a animação*/
+	transition-duration: 0.5s/*Tempo de duração da animação*/;
+}
+p:hover{
+	width: 500px;
+	height: auto;
+	background-color: #f00;
+	color: #fff;
+	transform: rotate(180deg);
+}

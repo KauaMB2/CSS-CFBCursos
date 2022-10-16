@@ -1,0 +1,26 @@
+section{
+	border: 3px solid #f00;
+	margin-bottom: 10px;
+}
+#s2{
+	display: flex;
+	/*com display: flex;*/
+	flex-wrap: nowrap;/*Impede quebra de linha quando a tela é diminuída*/
+
+}
+#s3{
+	display: flex;
+	/*com display: flex;*/
+	flex-wrap: wrap;/*Ordena quebra de linha quando a tela é diminuída*/
+}
+div{
+	border: 1px solid #000;
+}
+#d7,#d8,#d9,#d10,#d11,#d12{
+	flex: 1;/*Distribui igualmente a largura(width) das divs*/
+}
+#d13,#d14,#d15,#d16,#d17,#d18{
+	flex: 1;/*Distribui igualmente a largura(width) das divs*/
+	height: 100px;
+	min-width: 100px;/*Dimiua a tela do navegador para ver o efeito*/
+}

@@ -1,0 +1,15 @@
+div,span{
+	border: 1px solid #000;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+}
+#d1,#s1,#d2,#s2{
+	display: inline;
+}
+#d3,#s3,#d4,#s4{
+	display: inline-block;
+}
+#d5,#s5,#d6,#s6{
+	display: block;
+}

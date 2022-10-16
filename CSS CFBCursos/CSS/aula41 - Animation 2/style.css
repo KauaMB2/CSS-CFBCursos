@@ -1,0 +1,36 @@
+@keyframes anima{/*Animação*/
+	0%{left: 0px;top: 0px;}
+	25%{left: 500px;top: 0px;}
+	50%{left: 500px;top: 500px;}
+	75%{left: 0px;top: 500px;}
+	100%{left: 0px;top: 0px;}
+}
+p{
+	position: absolute;
+	width: 260px;
+	height: 260px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: justify;
+	transition: width 2s,height 2s,background-color 2s, color 2s;
+	transition-timing-function: linear;/*Sem aceleração(Velocidade constante)*/
+
+	animation-name: anima;/*Nome da animação*/
+	animation-duration: 2s;/*Tempo de duração da animação*/
+	animation-timing-function: linear;/*Forma com que a animação acelera(ou não)*/
+	animation-delay: 0s;/*Delay para iniciar a animação*/
+	animation-iteration-count: infinite;/*Quantidade de vezes que a animação irá acontecer*/
+	animation-play-state: running;/*Estado da animação*/
+	animation-direction: alternate;/*Define direção da animação*/
+}
+p:hover{
+	/*Pausa a animação se o cursor do mause for posicionado em cima da div <p/>*/
+	animation-play-state: paused;
+	width: 500px;
+	height: 120px;
+	background-color: #f00;
+	color: #fff;
+	transition: width 2s,height 2s,background-color 2s, color 2s;
+	transition-timing-function: linear;/*Sem aceleração(Velocidade constante)*/
+}

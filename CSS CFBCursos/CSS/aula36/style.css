@@ -1,0 +1,9 @@
+p.cfb::before{
+	content: url(logo.jpg);
+}
+.cfb::after{
+	content: url(logo.jpg);
+}
+p{
+	font-size: 20px;
+}

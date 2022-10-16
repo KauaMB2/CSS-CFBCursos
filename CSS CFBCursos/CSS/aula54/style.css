@@ -1,0 +1,34 @@
+#p1{
+	font-size: 20px;
+}
+#p2{
+	font-size: 20pt;/*1pt(pontos)=1.3333px*/
+}
+#p3{
+	font-size: 1pc;/*1pc(paicas)=16px*/
+}
+
+
+div{
+	border: 1px solid #000;
+}
+#d1{
+	width: 2.54cm;/*centímetro*/
+	height: 2.54cm;/*centímetro*/
+}
+#d2{
+	width: 25.4mm;/*milímetro*/
+	height: 25.4mm;/*milímetro*/
+}
+#d3{
+	width: 1in;/*1 polegada = 2.54cm = 25.4mm*/
+	height: 1in;/*1 polegada = 2.54cm = 25.4mm*/
+}
+
+/*
+1cm=37.7952px
+1mm=3.7795px
+1in=96px
+1pc=16px
+1pt=1.3333px
+*/

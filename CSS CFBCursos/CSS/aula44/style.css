@@ -1,0 +1,15 @@
+div{
+	width: 300px;
+	height: 200px;
+
+}
+#d1{
+	border: 10px solid #000;
+	padding: 25px;
+	box-sizing: border-box;/*Configura a forma com que o site irá carregar o tamanho da div*/
+}
+#d2{
+	border: 0px;
+	padding: 0px;
+	background-color: #888;
+}
