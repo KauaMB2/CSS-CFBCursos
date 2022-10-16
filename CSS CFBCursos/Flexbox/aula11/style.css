@@ -1,0 +1,71 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	width: 600px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: 200px;
+	height: 20px;
+}
+.tam0{
+	flex-grow: 0;
+}
+.tam1{
+	flex-grow: 1;
+}
+.tam2{
+	flex-grow: 2;
+}
+.tam3{
+	flex-grow: 3;
+}
+.basea{
+	flex-basis: auto;
+}
+.base0{
+	flex-basis: 0;
+}
+.bas1{
+	flex-basis: 1;
+}
+.base2{
+	flex-basis: 2;
+}
+.order0{
+	order: 0;
+}
+.order1{
+	order: 1;
+}
+.order2{
+	order: 2;
+}
+.order3{
+	order: 3;
+}
+.reduzir0{
+	flex-shrink: 0;
+}
+.reduzir1{
+	flex-shrink: 1;
+}
+.reduzir2{
+	flex-shrink: 2;
+}
+body{
+	font-family: arial;
+	color: #000;
+}

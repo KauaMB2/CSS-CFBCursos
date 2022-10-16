@@ -1,0 +1,53 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.container1,.container2,.container3,.container4{
+	align-items: flex-start;/*"flex-end" segue a lógica inversa de "flex-start"*/
+}
+.container5{
+	align-items: center;/*Centraliza os elementos dentro do container*/
+}
+.container6{
+	align-items: stretch;/*Padrão*/
+}
+.container7{
+	align-items: space-around;/*Coloca um espaço igual entre os elementos da div*/
+}
+.horizontal{
+	flex-flow: row wrap;
+}
+.horizontalInverso{
+	flex-flow: row-reverse wrap;
+}
+.vertical{
+	flex-flow: column wrap;
+}
+.verticalInverso{
+	flex-flow: column-reverse wrap;
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	max-width: 900px;
+	min-width: 300px;
+	min-height: 180px;
+	max-height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: auto;
+}
+.container5 div{
+	width: calc(33.333% - 20px);/*1/3 -(margin + padding)*/
+}
+body{
+	font-family: arial;
+	color: #000;
+}

@@ -1,0 +1,47 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.container1,.container2,.container3,.container4{
+	justify-content: flex-start;/*"flex-end" segue a lógica inversa de "flex-start"*/
+}
+.container5{
+	justify-content: center;/*Centraliza os elementos dentro do container*/
+}
+.container6{
+	justify-content: space-between;/*Coloca um espaço entre os elementos da div, deixando um elemento em cada extremo*/
+}
+.container7{
+	justify-content: space-around;/*Coloca um espaço igual entre os elementos da div*/
+}
+.horizontal{
+	flex-flow: row wrap;
+}
+.horizontalInverso{
+	flex-flow: row-reverse wrap;
+}
+.vertical{
+	flex-flow: column wrap;
+}
+.verticalInverso{
+	flex-flow: column-reverse wrap;
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	max-width: 900px;
+	min-width: 300px;
+	display: flex;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: auto;
+}
+body{
+	font-family: arial;
+	color: #000;
+}

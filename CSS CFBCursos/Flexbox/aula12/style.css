@@ -1,0 +1,30 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	width: 600px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+}
+.flex0{
+	/*
+	flex: (flex-grow),(flex-shrink),(flex-basis);
+	*/
+	flex: 0,1,0;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	height: 20px;
+}
+body{
+	font-family: arial;
+	color: #000;
+}

@@ -1,0 +1,30 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.fluxo-horizontal-quebra{
+	flex-flow: row wrap;/*Organização horizontal de elementos e com quebra de linha*/
+	/*flex-flow: (flex-direction) (flex-wrap);*/
+}
+.fluxo-horizontal-sem-quebra{
+	flex-flow: row nowrap;/*Organização horizontal de elementos e sem quebra de linha*/
+	/*flex-flow: (flex-direction) (flex-wrap);*/
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	max-width: 900px;
+	min-width: 300px;
+	display: flex;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: auto;
+}
+body{
+	font-family: arial;
+	color: #000;
+}

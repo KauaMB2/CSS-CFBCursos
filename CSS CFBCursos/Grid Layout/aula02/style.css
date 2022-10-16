@@ -1,0 +1,23 @@
+body{
+	font-family: arial;
+	color: #000;
+}
+.grid{
+	display: grid;
+}
+.inline-grid{
+	display: inline-grid;
+}
+.container{
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 150px auto 50px;
+	/*grid-row-gap: 10px;
+	grid-column-gap: 20px;*/
+	grid-gap: 10px 20px;/*grid-gap: (grid-row-gap) (grid-column-gap);*/
+}
+.item{
+	background-color: #048;
+	color: #fff;
+	border: 1px solid #000;
+	text-align: center;
+}

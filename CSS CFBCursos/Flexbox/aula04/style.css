@@ -1,0 +1,28 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.horizontal{
+	flex-wrap: wrap;/*Ordena quebra de linha*/
+}
+.horizontalInverso{
+	flex-wrap: wrap-reverse;/*Ordena quebra de linha e configura os elementos na ordem inversa*/
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	max-width: 900px;
+	min-width: 300px;
+	display: flex;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: auto;
+}
+body{
+	font-family: arial;
+	color: #000;
+}

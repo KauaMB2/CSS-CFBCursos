@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+	color: #000;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 100px 1000px 100px;
+	grid-template-areas:
+	"header header header header"
+	"principal principal . lateral"
+	"footer footer footer footer"
+	;
+}
+.headerClass{
+	grid-area: header;
+}
+.principalClass{
+	grid-area: principal;
+}
+.lateralClass{
+	grid-area: lateral;
+}
+.footerClass{
+	grid-area: footer;
+}
+.item{
+	background-color: #048;
+	color: #fff;
+	border: 1px solid #000;
+	text-align: center;
+}

@@ -1,0 +1,36 @@
+.container{/*Classe para colocar atributos de todos os containeres*/
+	max-width: 600px;
+	min-width: 300px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.horizontal{
+	flex-direction: row;/*row=Ordem padrão de elementos na horizontal*/
+}
+.horizontalInverso{
+	flex-direction: row-reverse;/*Ordem inversa de elementos na horizontal(Mesma linha para os elementos)*/
+}
+.vertical{
+	flex-direction: column;/*column=Ordem padrão de elementos na vertical(Mesma coluna para os elementos)*/
+}
+.verticalInverso{
+	flex-direction: column-reverse;/*Ordem inversa de elementos na vertical(Mesma coluna para os elementos)*/
+}
+.flexivel{/*Classe pra colocar atributos referentes aos objetos no HTML que são flex*/
+	max-width: 800px;
+	min-width: 710px;
+	display: flex;
+}
+.item{
+	margin: 5px;
+	padding: 5px;
+	background-color: #447;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	width: auto;
+}
+body{
+	font-family: arial;
+	color: #000;
+}
