@@ -1,0 +1,17 @@
+#id1,#id2,#id3,#pa1{
+	border: 15px dotted #000;
+	padding: 50px;
+	background-image: url('marcador.png');
+}
+#id1{
+	background-clip: border-box;
+}
+#id2{
+	background-clip: padding-box;
+}
+#id3{
+	background-clip: content-box;
+}
+#pa1{
+	background-clip: padding-box;
+}

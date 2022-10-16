@@ -1,0 +1,28 @@
+div{
+	width:350px;
+	height:150px;
+	border:1px solid #000;
+	white-space:normal;/*Não permite a quebra da linha no texto, a não ser com <br>*/
+	overflow:auto;/*Automaticamente coloca uma barra de rolagem na div*/
+	word-break:break-all;/*Quebra tds as palavras par ao parágrafo de baixo que atingem o limite da div*/
+}
+
+p{
+	background-color: #000;/*Cor de fundo da tag <p>*/
+	color:#fff;/*Cor do conteúdo da tag <p>*/
+	text-decoration:none;/*Decoração do texto*/
+	text-transform:capitalize;/*Define se tds as letras estarão em maiúsculas ou minúsculas*/
+	text-align:justify;/*Alinhamento do texto*/
+	text-indent:100px;/*Parágrafo em píxel*/
+	letter-spacing:0px;/*Espaçamento horizontal entre as LETRAS*/
+	line-height:2;/*Espaçamento vertical entre as linhas*/
+	direction:ltr;/*Segmento(direção) do texto(Da direita para a esquerda ou da esquerda para direita)*/
+	/*"ltr" = Left to right; "rtl" = right to left*/
+	word-spacing:5px;/*Espaçamento entre as PALAVRAS*/
+	text-align-last:left;/*Define algum comportamento de identação para última linha do texto*/
+}
+
+a{
+	text-decoration:none;
+}
+/*https://www.youtube.com/watch?v=mcHRjAVKrq8&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV&index=18*/

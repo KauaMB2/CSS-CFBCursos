@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(90deg,#f00, #0f0, #00f);
+}
+#div1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(0deg,#ff0,#0ff 80%);
+}
+#div2{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg,#0ff 20%,#f0f 40%,#ff0 60%,#f00 80%);
+}
+h1{
+    font-size: 50pt;
+    background: linear-gradient(90deg,#0ff 5%,#f0f 16%,#ff0 27%,#f00 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/*https://www.youtube.com/watch?v=Crh5pXBa_1k&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV&index=15*/

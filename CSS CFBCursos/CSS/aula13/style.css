@@ -1,0 +1,30 @@
+body{
+    margin:0px;
+}
+p{
+    border: 1px solid #f00;
+    margin: 0px;
+    text-align: center;
+}
+div{
+    border: 1px solid #000;
+    margin: auto;
+}
+#dv1{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#dv1 p{
+    width: 200px;
+    margin: auto;
+}
+#dv2{
+    width: 500px;
+    height: 300px;
+}
+#dv2 p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}

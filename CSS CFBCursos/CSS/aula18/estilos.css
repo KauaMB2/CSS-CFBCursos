@@ -1,0 +1,8 @@
+p{
+	font-family:'Special Elite', cursive;/*Tenta achar 'Special Elite', se nn achar essa, tenta achar 'cursive e assim em diante'*/
+	font-style:italic;/*Estilo da fonte*/
+	font-weight:lighter;/*Adiciona(bold) ou retira(lighter) o negrito da frase*/
+	font-size:30px;/*Tamanho da fonte*/
+	font-variant:normal;
+}
+/*https://www.youtube.com/watch?v=t-truoFNo9w&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV&index=18*/

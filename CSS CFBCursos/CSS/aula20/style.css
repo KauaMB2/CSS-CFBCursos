@@ -1,0 +1,40 @@
+body{
+	margin: 0%;
+}
+p{
+	position: absolute;
+	top: 25%;
+}
+#obMenu{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+	top: 80px;
+	left: 0%;
+}
+nav{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 120px;
+	background-color: #ff4;
+}
+a{
+	text-decoration: none;
+	background-color: #004;
+	color: #fff;
+	padding: 0px;
+	margin: 0px;
+	display: table-cell;/*Botões como Célula de tabela*/
+	text-align: center;/*Texto alinhado no centro*/
+	vertical-align: middle;/*Deixa conteúdo da tag verticalmente alinhado com o centro*/
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+}
+a:hover{
+	background-color: #22f;
+	color: #fff;
+}

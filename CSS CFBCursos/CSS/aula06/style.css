@@ -1,0 +1,6 @@
+body{
+	background-image:url(cfb.jpg), url(marcador.png);/*Importa duas imagens*/
+	background-repeat:no-repeat, repeat;/*Não repete, repete*/
+	background-size:400px, 30px;/*Tamanho da primeira, tamanho da segunda*/
+	background-attachment:scroll, fixed;/*deslizante, fixo*/
+}

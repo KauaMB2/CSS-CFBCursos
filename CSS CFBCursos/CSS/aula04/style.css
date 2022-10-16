@@ -1,0 +1,15 @@
+body{
+	background-color:#bbb;/*Cor de funo*/
+	background-image:url(cfb.jpg), url(logo-CSS3.jpg);/*Importa duas imagens de fundo para a página*/
+	background-size:200px, 100px;/*Tamanho da primeira e segunda imagem*/
+	background-repeat:no-repeat, repeat;/*Define se repete ou não repete*/
+	background-position:200px 200px, 0px 0px;/*Posição da imagem no body*/
+}
+p{
+	font-size:30pt;/*Tamanho do texto*/
+	color:#FFF;/*Cor do texto*/
+	background-color:#0F0;/*Cor de fundo*/
+	background-image:url(marcador.png);/*Imagem de fundo*/
+	background-repeat:repeat-x;/*Somente repete no EIXO X*/
+	background-position:0px 8px;/*Posição da imagem*/
+}

@@ -1,0 +1,14 @@
+p{
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    font-size: 50px;
+}
+div{
+    position: absolute;
+    top: 0px;
+    left:150px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 0, 0, 0.75);
+}

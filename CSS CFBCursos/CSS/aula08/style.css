@@ -1,0 +1,12 @@
+#id1,#id2{
+    width:300px;/*Largura da div*/
+    height:300px;/*Altura da div*/
+    background-color: #DDD;/*Cor de fundo da div*/
+    border-style: solid;/*Tipo de borda da div*/
+    border-width: 20px;/*Largura da div*/
+    border-color: #f00;/*cor da borda*/
+}
+#id2{
+    background-color: #444;/*Cor de fundo da div*/
+    border-color: #00f;/*Cor da borda da div*/
+}

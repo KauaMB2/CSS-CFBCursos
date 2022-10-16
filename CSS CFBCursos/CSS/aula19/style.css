@@ -1,0 +1,26 @@
+a{
+	text-decoration: none;/*Tira o tracinho que fica em baixo do link*/
+	color: #0f0;/*cor do conteúdo*/
+	background-color: #00a;/*Cor de fundo*/
+	font-size: 20px;/*Tamanho do texto*/
+	padding: 30px;/*Margem de dentro para fora do elemento*/
+	display: table-cell;/*Célula de tabela(???????????????????)*/
+}
+a:hover{
+	color: #f00;
+	background-color: #aaf;
+}
+
+
+/*a:link{  //Links não visistados
+
+}
+a:visited{  //Links visistados
+	
+}
+a:active{  //Links que estão sendo visitados
+	
+}
+a:hover{  //Link quando o mouse estiver em cima do link
+	
+}*/

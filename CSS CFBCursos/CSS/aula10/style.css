@@ -1,0 +1,12 @@
+#id1,#id2{
+    width: 150px;/*Largura da div*/
+    height:150px;/*Altura da div*/
+    border: #000 solid 20px;
+    padding: 100px;
+}
+#id1{
+    border-radius: 30px;
+}
+#id2{
+    border-radius: 100%;
+}
