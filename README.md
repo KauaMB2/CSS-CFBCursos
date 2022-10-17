@@ -19,4 +19,4 @@
 
 <hr>
 
-## Click <a href="https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV">here</a> to access the course:
+## Click <a href="https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV">here</a> to access the course.
